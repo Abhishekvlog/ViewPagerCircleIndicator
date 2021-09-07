@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00008B"
+    tools:context=".FragmentA">
+
+    <TextView
+        android:id="@+id/Title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Write on the go"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="500sp"
+        android:layout_marginStart="20sp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/writetogo"
+        android:layout_marginStart="80sp"
+        android:layout_marginTop="150sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description1"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="20sp"
+        android:text="SKIP"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/description1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get stuff done with or without an \n internet connection"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="540sp"
+        android:layout_marginStart="20sp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="320sp"
+        android:layout_marginTop="20sp"
+        android:layout_below="@id/description1"
+        android:src="@drawable/rigth" />
+
+</RelativeLayout>

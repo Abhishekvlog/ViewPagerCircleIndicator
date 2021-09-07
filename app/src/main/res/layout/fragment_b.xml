@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1DB688"
+    tools:context=".FragmentB">
+
+
+    <TextView
+        android:id="@+id/Title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share and edit together"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="500sp"
+        android:layout_marginStart="20sp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60sp"
+        android:layout_marginTop="150sp"
+        android:src="@drawable/document" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description2"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="20sp"
+        android:text="SKIP"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/description2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Write on your own or invite more \n people to connect"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="540sp"
+        android:layout_marginStart="20sp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="320sp"
+        android:layout_marginTop="20sp"
+        android:layout_below="@id/description2"
+        android:src="@drawable/rigth" />
+
+</RelativeLayout>
